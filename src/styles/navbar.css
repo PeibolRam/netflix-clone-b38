@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    /* padding: 1em; */
+    position: fixed;
+    width: 100%;
+}
+
+nav .logo{
+    width: 150px;
+    margin: 2em ;
+}
+
+
+.redButton {
+    color: #fff;
+    background-color: #e50914;
+    padding: .5em 1.5em;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 2em;
+    border-radius: 5px;
+}
+

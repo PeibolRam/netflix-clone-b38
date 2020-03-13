@@ -1,0 +1,48 @@
+.main-movie{
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/6ZVGZ65NFMLMDXT2QAFG42N4MY.jpg');
+    
+}
+
+.main-movie-container{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+}
+
+.main-movie-container-info{
+    margin: 0 3em;
+    width: 60%;
+}
+
+.main-movie-container-info h1{
+    font-size: 3rem; 
+    margin: 1em 0;  
+}
+
+.main-movie-container-info p{
+    margin: 0 0 2em;
+}
+
+.main-movie-container-info a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #0000008f;
+    margin: 1em auto;
+    padding: .75em 2em;
+    border-radius: 5px;
+}
+
+.main-movie-container-info a:hover{
+    color: #000000;
+    background-color: #ffffff8f;
+}
