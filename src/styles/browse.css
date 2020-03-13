@@ -46,3 +46,10 @@
     color: #000000;
     background-color: #ffffff8f;
 }
+
+.movies{
+    padding: 1em 0;
+    overflow: scroll;
+    scrollbar-width: none;
+    background-color: #000;
+}

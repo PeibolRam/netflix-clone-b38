@@ -1,9 +1,3 @@
-.movies{
-    margin: 1em 0;
-    overflow: scroll;
-    scrollbar-width: none;
-}
-
 .miniatures{
     display: flex;
     flex-direction: row;
@@ -28,10 +22,19 @@
     color: #fff;
 }
 
+.movie-miniature-info h2{
+    padding: 1em;
+}
+
 .movie-miniature-info:hover{
     background-color: rgba(0, 0, 0, 0);
 }
 .movie-miniature:hover{
     height: 200px;
     width: 450px;
+}
+
+.miniatures-title{
+    color: #fff;
+    margin: 1em 2em;
 }
